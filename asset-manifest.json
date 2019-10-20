@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-01-components/static/css/main.5e10785d.chunk.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.d46fa7b4.chunk.js",
+    "main.js.map": "/goit-react-hw-01-components/static/js/main.d46fa7b4.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-01-components/static/js/runtime-main.7a5c0bc9.js",
+    "runtime-main.js.map": "/goit-react-hw-01-components/static/js/runtime-main.7a5c0bc9.js.map",
+    "static/js/2.dbcf7199.chunk.js": "/goit-react-hw-01-components/static/js/2.dbcf7199.chunk.js",
+    "static/js/2.dbcf7199.chunk.js.map": "/goit-react-hw-01-components/static/js/2.dbcf7199.chunk.js.map",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "precache-manifest.fb911e89bd0af86750cccacc4a929b28.js": "/goit-react-hw-01-components/precache-manifest.fb911e89bd0af86750cccacc4a929b28.js",
+    "service-worker.js": "/goit-react-hw-01-components/service-worker.js",
+    "static/css/main.5e10785d.chunk.css.map": "/goit-react-hw-01-components/static/css/main.5e10785d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a5c0bc9.js",
+    "static/js/2.dbcf7199.chunk.js",
+    "static/css/main.5e10785d.chunk.css",
+    "static/js/main.d46fa7b4.chunk.js"
+  ]
+}
