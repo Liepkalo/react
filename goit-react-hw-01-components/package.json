@@ -17,7 +17,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://Liepkalo.github.io/goit-react-hw-01-components",
+  "homepage": "https://Liepkalo.github.io/react",
   "eslintConfig": {
     "extends": "react-app"
   },

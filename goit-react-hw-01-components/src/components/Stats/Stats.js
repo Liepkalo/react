@@ -9,7 +9,7 @@ const Stats = ({ title, stats }) => (
     <ul className={style.statList}>
       {' '}
       {stats.map(stat => (
-        <li className={style.item} key={stat.id}>
+        <li className={style.item} key={stat.label}>
           <span className={style.label}> {stat.label} </span>{' '}
           <span className={style.percentage}> {stat.percentage} % </span>{' '}
         </li>
@@ -18,8 +18,12 @@ const Stats = ({ title, stats }) => (
   </section>
 );
 
+Stats.defaultProps = {
+  title: ' ',
+};
+
 Stats.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
