@@ -1,0 +1,27 @@
+.transaction {
+  width: 300px;
+  height: auto;
+  border: 1px solid rgb(12, 11, 11);
+}
+
+.head {
+  font-family: 'Franklin Gothic', sans-serif;
+  font-size: 15px;
+  padding: 10px 8px;
+  color: #039;
+  background: #103ed4;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid #fff;
+  font-weight: normal;
+}
+
+.body {
+  border-bottom: 1px solid #fff;
+  background: #e8edff;
+  color: #669;
+  border-top: 1px solid transparent;
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  padding: 9px 8px;
+  list-style-type: none;
+}

@@ -1,0 +1,40 @@
+.friend {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 100px;
+  background-color: #e7ecf2;
+}
+
+.mark {
+  color: chartreuse;
+}
+
+.offLine {
+  composes: mark;
+  color: rgb(148, 11, 11);
+}
+
+.offLine .description {
+  position: relative;
+  width: 250px;
+  height: 255px;
+  top: 50px;
+  left: 90px;
+  background-color: rgb(29, 172, 53);
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px 0px rgba(191, 205, 222, 0.75);
+}
+
+.avatar {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.name {
+  font-size: 18px;
+  font-family: 'Lato';
+  color: rgb(11, 11, 12);
+  font-weight: bold;
+  text-align: right;
+  margin-top: 1px;
+}
